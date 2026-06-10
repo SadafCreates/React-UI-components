@@ -1,6 +1,8 @@
+import './Button.css';
+
 function Button({label , onClick, disabled}){
     return (
-        <button onClick ={onClick} disabled={disabled}>{label}</button>
+        <button  className='btn' onClick ={onClick} disabled={disabled}>{label}</button>
     )
 };
 export default Button;  

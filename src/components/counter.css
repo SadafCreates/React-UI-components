@@ -10,7 +10,7 @@ body{
     align-items: center;
     height: 100vh;
     color:azure;
-
+ background-color: #1d2a46;
 }
 
 .buttons{
@@ -18,3 +18,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.dark{
+    background-color: #1d2a46;
+    color: azure;
+}
+
+.light{
+    background-color: #f0f0f0;
+    color: #1d2a46;
+}
+

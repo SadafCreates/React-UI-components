@@ -1,8 +1,35 @@
 .btn{
     margin: 6px;
     color: #1d2a46;
-    border: 2px solid white;
     padding: 10px;
     font-size:12px;
     font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(196, 201, 201);
+    border: 2px solid #1d2a46;
+}
+
+.dark-btn{
+    color: #1d2a46;
+}
+
+.light-btn{
+    background-color: #1d2a46;
+    color: azure;
+    border: 2px solid azure;
+}
+.light-btn:hover{
+    color:#1d2a46;
+        border: 2px solid white;
+
+}
+
+.dark-btn:hover{
+    border : 2px solid #1d2a46;
+}
+.disabled{
+    background-color: rgb(196, 201, 201);
+    color: #1d2a46;
+    border: 2px solid #1d2a46;
 }

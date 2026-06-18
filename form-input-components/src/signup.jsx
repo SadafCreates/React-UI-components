@@ -57,6 +57,8 @@ return (
                             I agree to the terms and conditions.
                         </label>
                     </div>
+                    
+                    <button type='submit' onClick={handleSubmit} className='submitButton'>Submit</button>
                 </form>
             </div>
         </>

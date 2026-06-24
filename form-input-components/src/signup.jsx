@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Signup.css'; 
 
 function SignUp(){
@@ -26,7 +26,8 @@ function SignUp(){
         const newErrors = {};
         if (!formData.name) newErrors.name = 'Name is required';
         if (!formData.email) newErrors.email = 'Email is required';
-        if (!formData.password) newErrors.password = 'Password is required';
+        if (!formData.password) {newErrors.password = 'Password is required';}else if
+        (formData.password.length<8)newErrors.password='Password must be at least 8 characters longer';
         if (!formData.role) newErrors.role = 'Role is required';
         if (!formData.agree) newErrors.agree = 'You must agree to the terms';
         return newErrors;

@@ -1,10 +1,10 @@
-// import React from "react";
+import FD from "./FetchData.jsx";
 
 function App(){
 
-
   return(
     <>
+    <FD></FD>
     </>
   )
 };

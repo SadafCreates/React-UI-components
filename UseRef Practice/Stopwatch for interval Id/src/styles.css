@@ -1,0 +1,25 @@
+img{
+    width: 100%;
+    height: auto;
+}
+/* li{
+    /* display: inline; */
+*/
+div{
+    width: 100%;
+    /* overflow: hidden; */
+}
+ul, li {
+    list-style: none;
+    white-space: nowrap;
+}
+ul{
+    padding-inline-start: 20px;
+}
+nav{
+    position: fixed;
+    z-index: 100;
+}
+button{
+    margin: 12px;
+}

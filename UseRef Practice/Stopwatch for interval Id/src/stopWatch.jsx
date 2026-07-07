@@ -21,12 +21,19 @@ function StopWatch(){
         countref.current=null;
     }
 
+    function resetCount(){
+        clearInterval(countref.current);
+        setCount(0);
+        setIsCounting(false);
+    }
+
     return(
         <>
         <div>
 <h3>{count}</h3>
 <button onClick={startCount}>Start</button>
 <button onClick={stopCount} >Stop</button>
+<button onClick={resetCount} >Reset</button>
         </div>
         </>
     )

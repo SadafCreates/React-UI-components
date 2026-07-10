@@ -31,8 +31,8 @@ function StopWatch(){
         <>
         <div>
 <h3>{count}</h3>
-<button onClick={startCount}>Start</button>
-<button onClick={stopCount} >Stop</button>
+<button onClick={startCount} disabled={isCounting}>Start</button>
+<button onClick={stopCount} disabled={!isCounting} >Stop</button>
 <button onClick={resetCount} >Reset</button>
         </div>
         </>
